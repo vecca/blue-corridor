@@ -8,6 +8,10 @@ module.exports = merge(common, {
     static: "./src", //Optional if using HtmlWebpackPlugin
     hot: true, // Enables hot module replacement
     port: 3000, // Runs on localhost:3000
-    open: true,
+    open: {
+      app: {
+        name: "firefox",
+      },
+    },
   },
 });

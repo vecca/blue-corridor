@@ -1,13 +1,16 @@
-/* Example: Nesting and modern CSS features */
+@import "normalize.css";
 @import "./base/variables.css";
+@import "./base/mixins.css";
+@import "./base/mixins.css";
+@import "./base/global.css";
 
 body {
-  background-color: $mainBlue;
+  background-color: $color-primary;
   font-family: $mainFont;
   color: $deepPink;
 
   a {
-    color: $mainOrange;
+    color: $color-accent;
     text-decoration: none;
 
     &:hover {
