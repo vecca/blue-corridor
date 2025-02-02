@@ -1,0 +1,17 @@
+/* Example: Nesting and modern CSS features */
+@import "./base/variables.css";
+
+body {
+  background-color: $mainBlue;
+  font-family: $mainFont;
+  color: $deepPink;
+
+  a {
+    color: $mainOrange;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
