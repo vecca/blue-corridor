@@ -1,20 +1,4 @@
 @import "normalize.css";
 @import "./base/variables.css";
 @import "./base/mixins.css";
-@import "./base/mixins.css";
 @import "./base/global.css";
-
-body {
-  background-color: $color-primary;
-  font-family: $mainFont;
-  color: $deepPink;
-
-  a {
-    color: $color-accent;
-    text-decoration: none;
-
-    &:hover {
-      text-decoration: underline;
-    }
-  }
-}
