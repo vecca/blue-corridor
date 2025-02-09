@@ -9,4 +9,17 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%; /* 10px/16px = 62.5% -> 1rem = 10px */
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $font-primary;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }

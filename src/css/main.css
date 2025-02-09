@@ -1,4 +1,10 @@
 @import "normalize.css";
 @import "./base/variables.css";
+@import "./base/utilities.css";
+@import "./base/typography.css";
 @import "./base/mixins.css";
 @import "./base/global.css";
+@import "./components/container.css";
+@import "./components/main-nav.css";
+@import "./components/section-hero.css";
+@import "./components/section-about.css";
