@@ -1,27 +1,52 @@
-.heading-primary,
-.heading-secondary,
-.heading-tertiary {
-  font-weight: 300;
+h1,
+h2 {
+  color: #2d7be8;
+  font-family: $font-headings;
+  font-weight: 400;
+  line-height: 1.1;
+  margin-bottom: 1rem;
 }
 
-.section-hero {
-  color: #7b9cbc;
+p,
+h3,
+h4 {
+  color: #9bbeee;
+  font-family: $font-body;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.2;
+}
+
+p.lead {
+  font-family: $font-body;
+  font-weight: 400;
+  line-height: 1.2;
+  font-size: 2.4rem;
+  margin-bottom: 1.6rem;
+}
+
+.heading-secondary,
+.heading-tertiary {
+  font-weight: 400;
+}
+
+.hero {
   .heading-primary {
-    font-size: 4rem;
+    font-size: 4.8rem;
   }
 }
 
 .heading-secondary {
-  font-size: 2.4rem;
+  font-size: 3.2rem;
 }
 
 .heading-tertiary {
   font-size: 1.6rem;
 }
 
-.lead {
-  font-size: 2.1rem;
-  line-height: 1.2;
+.heading-h4 {
+  font-size: 1.4rem;
+  text-transform: uppercase;
 }
 
 p {

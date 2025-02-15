@@ -105,7 +105,7 @@
   /* //FUNCTIONALITY */
   &__checkbox:checked ~ &__background {
     transform: translateX(0);
-    opacity: 0.9;
+    opacity: 0.6;
     pointer-events: auto;
     visibility: visible;
   }
@@ -129,7 +129,7 @@
     &::after {
       width: 3rem;
       height: 2px;
-      background-color: lightskyblue;
+      background-color: #addaff;
       display: inline-block;
     }
 

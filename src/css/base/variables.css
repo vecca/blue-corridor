@@ -1,10 +1,11 @@
 /* COLOR VARIABLES */
-$color-primary: #001f3f;
-$color-secondary: #013a63;
+$color-primary: #020024;
+$color-secondary: #090979;
 $color-accent: #4682b4;
 
 /* FONT VARIABLES */
-$font-primary: "Arial", sans-serif;
+$font-headings: "Playfair Display", serif;
+$font-body: "Inter", serif;
 
 /*
 - Spacing system (px)

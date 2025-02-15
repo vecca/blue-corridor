@@ -1,7 +1,6 @@
 .section-principles {
-  background-color: $color-primary;
-  padding: 6.4rem 0;
-  color: #7b9cbc;
+  /* background-color: $color-primary; */
+  padding: 3.2rem 0;
 }
 
 .principles-list {
@@ -12,7 +11,7 @@
 }
 
 .principle {
-  background-color: aqua;
+  background-color: $color-primary;
   height: 250px;
   width: 250px;
   border-radius: 50%;

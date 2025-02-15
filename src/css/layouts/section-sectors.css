@@ -1,0 +1,19 @@
+.section-sectors {
+  padding: 3.2rem 0;
+}
+
+.sectors-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.4rem;
+
+  .sector {
+    padding: 1rem;
+
+    &-icon {
+      width: 6rem;
+      margin-bottom: 1rem;
+      fill: red;
+    }
+  }
+}

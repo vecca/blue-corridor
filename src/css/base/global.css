@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&family=Playfair+Display:wght@500&display=swap");
+
 *,
 *::before,
 *::after {
@@ -14,11 +16,10 @@ html {
 }
 
 body {
-  font-family: $font-primary;
-  line-height: 1;
-  font-weight: 400;
-  color: #555;
   overflow-x: hidden;
+
+  background: $color-secondary;
+  background: radial-gradient(circle, $color-secondary 30%, $color-primary 100%);
 }
 
 img {

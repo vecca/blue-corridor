@@ -1,7 +1,7 @@
 .section-hero {
-  background-color: $color-primary;
+  /* background-color: $color-primary; */
 
-  padding: 8rem 0 6.4rem 0;
+  padding: 8rem 0 4rem 0;
 }
 
 .hero {
