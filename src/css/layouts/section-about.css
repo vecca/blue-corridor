@@ -1,3 +1,15 @@
 .section-about {
   padding: 3.2rem 0;
+
+  @mixin atLarge {
+    padding: 6.4rem 0;
+
+    .column-txt:first-child {
+      flex: 1 1 auto;
+    }
+
+    .column-txt:last-child {
+      flex: 1 1 50rem;
+    }
+  }
 }

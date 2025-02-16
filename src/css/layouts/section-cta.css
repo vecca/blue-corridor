@@ -1,12 +1,19 @@
 .section-cta {
-  /* .btn--full {
-    font-size: 2.4rem;
-    padding: 2.4rem 1.6rem;
-    margin-top: 1.6rem;
-  } */
+  @mixin atLarge {
+    padding: 6.4rem 0;
+    .lead {
+      max-width: 64rem;
+      margin: 0 auto;
+    }
+  }
   .link {
     font-size: 1.6rem;
     /* padding: 2.4rem 1.6rem; */
     margin-top: 1.6rem;
+
+    @mixin atLarge {
+      font-size: 2.4rem;
+      margin-top: 8rem;
+    }
   }
 }

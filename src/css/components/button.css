@@ -62,6 +62,6 @@
 
 .link:hover,
 .link:active {
-  color: $color-secondary;
+  color: white;
   border-bottom: 1px solid transparent;
 }

@@ -17,9 +17,9 @@ html {
 
 body {
   overflow-x: hidden;
-
-  background: $color-secondary;
-  background: radial-gradient(circle, $color-secondary 30%, $color-primary 100%);
+  background-color: rgb(16, 16, 61);
+  /* background: $color-secondary;
+  background: radial-gradient(circle, $color-secondary 30%, $color-primary 100%); */
 }
 
 img {

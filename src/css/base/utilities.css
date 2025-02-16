@@ -34,6 +34,9 @@
 
 .margin-bottom-md {
   margin-bottom: 4.8rem !important;
+  @mixin atLarge {
+    margin-bottom: 6.4rem !important;
+  }
 }
 
 .center-text {
@@ -48,4 +51,9 @@ strong {
   display: flex;
   flex-direction: column;
   gap: 2.4rem;
+
+  @mixin atLarge {
+    flex-direction: row;
+    column-gap: 4.8rem;
+  }
 }
