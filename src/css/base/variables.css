@@ -1,6 +1,7 @@
 /* COLOR VARIABLES */
-$color-primary: #020024;
-$color-secondary: #090979;
+$color-primary: rgb(16, 16, 61);
+$color-primary-light: hsl(225, 75%, 76%);
+$color-secondary: #1e1b4e;
 $color-accent: #4682b4;
 
 /* FONT VARIABLES */
