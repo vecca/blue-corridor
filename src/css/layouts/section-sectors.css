@@ -14,7 +14,7 @@
 
   @mixin atLarge {
     grid-template-columns: repeat(3, 1fr);
-    gap: 6.4rem;
+    gap: 8rem;
   }
 
   .sector {

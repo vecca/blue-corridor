@@ -1,0 +1,16 @@
+svg.squiggle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 190vw;
+  z-index: 100;
+  mix-blend-mode: exclusion;
+}
+
+svg.squiggle path {
+  fill: none;
+  stroke: blue;
+  stroke-width: 100;
+  stroke-linecap: round;
+}

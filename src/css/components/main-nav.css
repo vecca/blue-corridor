@@ -176,7 +176,8 @@
 
 /* STICKY NAVIGATION */
 .sticky .navigation {
-  background-color: #020024;
+  background-color: rgba(2, 0, 36, 0.9);
   z-index: 999;
   box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
+  transition: all 0.3s;
 }

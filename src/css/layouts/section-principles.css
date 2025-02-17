@@ -24,7 +24,7 @@
 }
 
 .principle {
-  background-color: $color-primary;
+  background-color: $color-secondary;
   height: 250px;
   width: 250px;
   border-radius: 50%;
