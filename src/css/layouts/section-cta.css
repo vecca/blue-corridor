@@ -1,4 +1,8 @@
 .section-cta {
+  position: relative;
+  z-index: 110;
+  padding: 6.4rem 0;
+
   @mixin atLarge {
     padding: 6.4rem 0;
     .lead {

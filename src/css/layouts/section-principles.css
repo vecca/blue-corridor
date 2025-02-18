@@ -1,4 +1,6 @@
 .section-principles {
+  position: relative;
+  z-index: 130;
   /* background-color: $color-primary; */
   padding: 3.2rem 0;
   @mixin atLarge {

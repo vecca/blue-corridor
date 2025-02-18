@@ -1,16 +1,29 @@
 svg.squiggle {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 100;
   width: 100vw;
-  height: 190vw;
+  height: 200vw;
   z-index: 100;
   mix-blend-mode: exclusion;
+  @mixin atLarge {
+    height: 190vw;
+  }
 }
 
-svg.squiggle path {
+/* svg.squiggle path {
   fill: none;
   stroke: blue;
   stroke-width: 100;
   stroke-linecap: round;
+}
+ */
+
+svg.squiggle path {
+  stroke-dasharray: 0;
+  stroke-dashoffset: 0;
+  stroke-width: 2;
+  stroke: blue;
+  fill: none;
+  /* transition: stroke-dashoffset 1s; */
 }

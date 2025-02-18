@@ -1,5 +1,7 @@
 .section-sectors {
   padding: 3.2rem 0;
+  position: relative;
+  z-index: 125;
 
   @mixin atLarge {
     padding: 6.4rem 0;
@@ -18,7 +20,9 @@
   }
 
   .sector {
-    padding: 1rem;
+    padding: 4rem;
+    background-color: $color-secondary;
+    border-radius: 12px;
 
     &-icon {
       width: 6rem;
