@@ -1,4 +1,5 @@
 svg.squiggle {
+  display: none;
   position: absolute;
   top: 0;
   left: 100;
@@ -7,6 +8,7 @@ svg.squiggle {
   z-index: 100;
   mix-blend-mode: exclusion;
   @mixin atLarge {
+    display: block;
     height: 190vw;
   }
 }
@@ -22,7 +24,7 @@ svg.squiggle {
 svg.squiggle path {
   stroke-dasharray: 0;
   stroke-dashoffset: 0;
-  stroke-width: 2;
+  stroke-width: 3;
   stroke: blue;
   fill: none;
   /* transition: stroke-dashoffset 1s; */
