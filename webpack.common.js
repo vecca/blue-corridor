@@ -29,7 +29,7 @@ module.exports = {
       },
       {
         test: /\.(png|jpe?g|gif|svg)$/i, // Add rule for image files
-        type: "asset/resource", // Use asset/resource to handle images
+        type: "assets/images", // Use asset/resource to handle images
         generator: {
           filename: "images/[name][hash][ext]", // Output images to 'images' folder with hash
         },
