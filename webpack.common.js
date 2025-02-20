@@ -5,7 +5,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 module.exports = {
   entry: "./src/js/index.js", // Common entry file
   output: {
-    filename: "js/[name].[contenthash].js", // Output JS files to 'js' folder with hash
+    filename: "bundle.js",
     path: path.resolve(__dirname, "dist"),
     clean: true, // Cleans output folder before each build
   },
@@ -26,13 +26,6 @@ module.exports = {
             },
           },
         ],
-      },
-      {
-        test: /\.(png|jpe?g|gif|svg)$/i, // Add rule for image files
-        type: "asset/resource", // Use asset/resource to handle images
-        generator: {
-          filename: "images/[name][hash][ext]", // Output images to 'images' folder with hash
-        },
       },
     ],
   },
