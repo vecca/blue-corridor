@@ -27,6 +27,37 @@ module.exports = {
           },
         ],
       },
+      {
+        test: /\.(png|jpe?g|gif|svg)$/i, // Add rule for image files
+        type: "asset/resource", // Use asset/resource to handle images
+        generator: {
+          filename: "images/[name][hash][ext]", // Output images to 'images' folder with hash
+        },
+      },
+      {
+        test: /\.html$/,
+        use: [
+          {
+            loader: "html-loader",
+            options: {
+              sources: {
+                list: [
+                  {
+                    tag: "img",
+                    attribute: "src",
+                    type: "src",
+                  },
+                  {
+                    tag: "source",
+                    attribute: "srcset",
+                    type: "srcset",
+                  },
+                ],
+              },
+            },
+          },
+        ],
+      },
     ],
   },
   plugins: [
