@@ -1,0 +1,42 @@
+.section-portfolio {
+  padding: 3.2rem 0;
+  position: relative;
+  z-index: 126;
+
+  .portfolio-list {
+    background-color: $color-secondary-transparent;
+    border-radius: 12px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    justify-items: center;
+    padding: 4rem 1rem;
+  }
+
+  .portfolio-item {
+    max-width: 200px;
+    display: grid;
+    align-items: center;
+  }
+
+  @mixin atMedium {
+    .portfolio-list {
+    }
+  }
+
+  @mixin atLarge {
+    padding: 6.4rem 0;
+
+    .portfolio-list {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 8rem;
+      justify-items: center;
+      padding: 8rem 1rem;
+    }
+
+    .portfolio-item {
+      max-width: 300px;
+    }
+  }
+}
