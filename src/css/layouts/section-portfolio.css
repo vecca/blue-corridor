@@ -4,7 +4,7 @@
   z-index: 126;
 
   .portfolio-list {
-    background-color: $color-secondary-transparent;
+    background-color: $color-tertiary-transparent;
     border-radius: 12px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -17,6 +17,13 @@
     max-width: 200px;
     display: grid;
     align-items: center;
+  }
+
+  .portfolio-item.logo-circular {
+    max-width: 150px;
+    display: grid;
+    align-items: center;
+    opacity: 0.8;
   }
 
   @mixin atMedium {
