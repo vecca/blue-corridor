@@ -1,4 +1,4 @@
-console.log("Hello from the StickyNav component!");
+//console.log("Hello from the StickyNav component!");
 
 const sectionHeroEl = document.querySelector(".heading-primary");
 
@@ -23,3 +23,10 @@ const obs = new IntersectionObserver(
   }
 );
 obs.observe(sectionHeroEl);
+
+// Close mobile navigation when a link is clicked
+document.querySelectorAll(".navigation__link").forEach((link) => {
+  link.addEventListener("click", () => {
+    document.getElementById("navi-toggle").checked = false;
+  });
+});

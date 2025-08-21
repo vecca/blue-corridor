@@ -28,6 +28,8 @@
   padding: 0 3.2rem 0 3.2rem;
   width: 100%;
 
+  font-family: $font-headings;
+
   &__checkbox {
     display: none;
   }
@@ -93,10 +95,10 @@
     &:link,
     &:visited {
       display: inline-block;
-      font-size: 2rem;
+      font-size: 4rem;
       font-weight: 300;
-      padding: 1rem 2rem;
-      color: white;
+      padding: 2rem 4rem;
+      color: $color-primary-light;
       text-decoration: none;
       background-size: 100%;
       transition: all 0.4s;
@@ -110,7 +112,7 @@
     &:hover,
     &:active {
       background-position: 100%;
-      color: $color-primary;
+      color: white;
       transform: translateX(1rem);
     }
   }
