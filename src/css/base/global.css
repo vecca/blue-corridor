@@ -27,3 +27,12 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+/*Offset page scroll */
+#about,
+#sectors,
+#principles,
+#portfolio,
+#contact {
+  scroll-margin-top: 60px;
+}
