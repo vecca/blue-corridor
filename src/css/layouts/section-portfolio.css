@@ -26,11 +26,6 @@
     opacity: 0.8;
   }
 
-  @mixin atMedium {
-    .portfolio-list {
-    }
-  }
-
   @mixin atLarge {
     padding: 6.4rem 0;
 

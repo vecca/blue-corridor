@@ -8,9 +8,15 @@
 }
 
 .logo img {
-  width: 300px;
+  width: 220px;
   padding: 2rem 0 1rem 0;
   transition: width 0.3s ease, padding 0.3s ease;
+}
+
+@mixin atMedium {
+  .logo img {
+    width: 300px;
+  }
 }
 
 .sticky .logo img {
@@ -95,13 +101,20 @@
     &:link,
     &:visited {
       display: inline-block;
-      font-size: 4rem;
+      font-size: 3rem;
       font-weight: 300;
       padding: 2rem 4rem;
       color: $color-primary-light;
       text-decoration: none;
       background-size: 100%;
       transition: all 0.4s;
+
+      @mixin atMedium {
+        &:link,
+        &:visited {
+          font-size: 4rem;
+        }
+      }
 
       span {
         margin-right: 1.5rem;

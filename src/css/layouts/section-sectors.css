@@ -10,9 +10,14 @@
 
 .sectors-list {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 2.4rem;
   margin: 0 auto;
+
+  @mixin atSmall {
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+  }
 
   @mixin atLarge {
     grid-template-columns: repeat(3, 1fr);
