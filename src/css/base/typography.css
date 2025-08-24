@@ -14,7 +14,7 @@ h4 {
   font-family: $font-body;
   font-weight: 400;
   font-size: 1.6rem;
-  line-height: 1.2;
+  line-height: 1.5;
 }
 
 p.lead {
@@ -59,14 +59,17 @@ p.lead {
 }
 
 .heading-tertiary {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  margin: 1rem 0;
   @mixin atLarge {
-    font-size: 1.8rem;
+    font-size: 2.8rem;
   }
 }
 
 .heading-h4 {
-  font-size: 1.4rem;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
   text-transform: uppercase;
 
   @mixin atLarge {

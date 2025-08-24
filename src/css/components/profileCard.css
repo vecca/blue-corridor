@@ -1,0 +1,102 @@
+.section-profile {
+  padding: 3.2rem 0;
+
+  @mixin atLarge {
+    padding: 10rem 0;
+  }
+}
+
+.profile-card {
+  display: flex;
+  max-width: 90rem;
+  flex-direction: column;
+  //background-color: $color-secondary-transparent;
+  padding: 20px;
+  //border-radius: 10px;
+  //box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+
+  @mixin atMedium {
+    flex-direction: row;
+    padding: 4rem;
+  }
+
+  @mixin atLarge {
+    padding: 6rem;
+    box-shadow: none;
+  }
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  @mixin atMedium {
+    margin-right: 4rem;
+    width: 150px;
+    height: 150px;
+  }
+
+  @mixin atLarge {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+.profile-text-box {
+  margin-top: 2rem;
+  flex: 1;
+}
+
+.profile-name {
+  font-family: $font-headings;
+  font-size: 3rem;
+  margin-bottom: 8px;
+  color: $color-primary-light;
+  @mixin atLarge {
+    font-size: 4rem;
+  }
+}
+
+.profile-role {
+  font-size: 1.8rem;
+  color: $color-primary-light;
+
+  @mixin atLarge {
+    font-size: 2.4rem;
+  }
+}
+
+.profile-desc {
+  font-size: 1.6rem;
+  color: $color-primary-light;
+  margin-top: 3rem;
+
+  @mixin atMedium {
+    font-size: 1.8rem;
+  }
+
+  @mixin atLarge {
+    font-size: 2rem;
+  }
+}
+
+.profile-contact {
+  display: block;
+  margin-top: 1rem;
+  font-size: 1.6rem;
+  color: $color-primary-light;
+
+  @mixin atMedium {
+    font-size: 2rem;
+  }
+
+  @mixin atLarge {
+    font-size: 2.4rem;
+  }
+}
+
+.center-card-lg {
+  display: flex;
+  justify-content: center;
+}
