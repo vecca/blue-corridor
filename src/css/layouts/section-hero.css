@@ -27,7 +27,7 @@
     background-image: url("../assets/images/Hero-GGB_2.svg");
     z-index: 100;
     background-repeat: no-repeat;
-    opacity: 0.9;
+    opacity: 0.3;
     filter: brightness(1);
     mix-blend-mode: lighten;
   }
@@ -43,12 +43,19 @@
     background-image: url("../assets/images/Hero-SHB_1.svg");
     z-index: 100;
     background-repeat: no-repeat;
-    opacity: 0.5;
+    opacity: 0.2;
     filter: brightness(1.8);
     //mix-blend-mode: color-dodge;
   }
 
   @mixin atXL {
+    &::before {
+      opacity: 1;
+    }
+
+    &::after {
+      opacity: 0.7;
+    }
     grid-template-columns: 5fr 1fr;
     height: 60vh;
   }
