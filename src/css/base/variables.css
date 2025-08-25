@@ -1,7 +1,7 @@
 /* COLOR VARIABLES */
 $color-primary: rgb(16, 16, 61);
 $color-primary-light: #94abf0;
-$color-secondary: rgb(30, 27, 78);
+$color-secondary: #1f1b50;
 $color-secondary-transparent: rgba(30, 27, 78, 0.4);
 $color-tertiary-transparent: rgba(30, 27, 78, 0.8);
 $color-accent: #4682b4;

@@ -16,6 +16,38 @@
   gap: 9.6rem;
   padding: 0 3.2rem;
 
+  &::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    width: 50vmin;
+    height: 50vmin;
+    border-radius: 50%;
+    transform: translate(-30%, 10%);
+    background-image: url("../assets/images/Hero-GGB_2.svg");
+    z-index: 100;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    filter: brightness(1);
+    mix-blend-mode: lighten;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    width: 40vmin;
+    height: 40vmin;
+    border-radius: 50%;
+    transform: translate(-130%, 70%);
+    background-image: url("../assets/images/Hero-SHB_1.svg");
+    z-index: 100;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    filter: brightness(1.8);
+    //mix-blend-mode: color-dodge;
+  }
+
   @mixin atXL {
     grid-template-columns: 5fr 1fr;
     height: 60vh;

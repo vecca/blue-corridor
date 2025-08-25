@@ -9,7 +9,7 @@ svg.squiggle {
   mix-blend-mode: exclusion;
   @mixin atLarge {
     display: block;
-    height: 190vw;
+    height: 240vw;
   }
 }
 
