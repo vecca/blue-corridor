@@ -23,12 +23,12 @@
     width: 50vmin;
     height: 50vmin;
     border-radius: 50%;
-    transform: translate(-30%, 10%);
-    background-image: url("../assets/images/Hero-GGB_2.svg");
+    transform: translate(-30%, 30%);
+    background-image: url("../assets/images/Hero-GGB_3.svg");
     z-index: 100;
     background-repeat: no-repeat;
-    opacity: 0.3;
-    filter: brightness(1);
+    opacity: 1;
+    filter: brightness(0);
     mix-blend-mode: lighten;
   }
 
@@ -39,22 +39,40 @@
     width: 40vmin;
     height: 40vmin;
     border-radius: 50%;
-    transform: translate(-130%, 70%);
-    background-image: url("../assets/images/Hero-SHB_1.svg");
+    transform: translate(-130%, 90%);
+    background-image: url("../assets/images/Hero-SHB_2.svg");
     z-index: 100;
     background-repeat: no-repeat;
-    opacity: 0.2;
-    filter: brightness(1.8);
-    //mix-blend-mode: color-dodge;
+    opacity: 1;
+    filter: brightness(0);
+    mix-blend-mode: lighten;
   }
 
-  @mixin atXL {
+  @mixin atLarge {
     &::before {
       opacity: 1;
+      filter: brightness(0.5);
+      transform: translate(-5%, 0%);
     }
 
     &::after {
-      opacity: 0.7;
+      opacity: 1;
+      filter: brightness(0.6);
+      transform: translate(-70%, 110%);
+    }
+  }
+
+  @mixin atXXL {
+    &::before {
+      opacity: 1;
+      filter: brightness(0.8);
+      transform: translate(-30%, 30%);
+    }
+
+    &::after {
+      opacity: 1;
+      filter: brightness(0.8);
+      transform: translate(-130%, 120%);
     }
     grid-template-columns: 5fr 1fr;
     height: 60vh;
