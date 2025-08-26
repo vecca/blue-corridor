@@ -87,6 +87,7 @@
   margin-top: 1rem;
   font-size: 1.6rem;
   color: $color-primary-light;
+  z-index: 1110;
 
   @mixin atMedium {
     font-size: 2rem;

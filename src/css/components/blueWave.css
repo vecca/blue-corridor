@@ -10,6 +10,7 @@ svg.squiggle {
   @mixin atLarge {
     display: block;
     height: 240vw;
+    pointer-events: none;
   }
 }
 
