@@ -4,12 +4,11 @@ svg.squiggle {
   top: 0;
   left: 100;
   width: 100vw;
-  height: 200vw;
+  height: auto;
   z-index: 100;
   mix-blend-mode: exclusion;
   @mixin atLarge {
     display: block;
-    height: 150vw;
     pointer-events: none;
   }
 }
